@@ -16,7 +16,7 @@ gRPC 是 Google 开源的一个高性能的 RPC(Remote Procedure Call) 框架，
 
 我们构建一个商品服务，命名为 ProductInfo，客户端和服务端的交互模式如下：
 
-![ProductInfo-service](/grpc-demo/image/ProductInfo-service.jpg)
+![ProductInfo-service](/image/ProductInfo-service.jpg)
 
 
 首先我们需要定义 protobuf：
