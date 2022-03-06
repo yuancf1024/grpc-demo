@@ -45,6 +45,11 @@ protoc --go_out=. --go_opt=paths=source_relative \
 
 protoc --go_out=. --go_opt=paths=source_relative \
     ProductInfo.proto
+
+# 正确命令
+protoc --go_out=. --go_opt=paths=source_relative \
+    --go-grpc_out=. --go-grpc_opt=paths=source_relative \
+    ProductInfo.proto
 ```
 
 执行完之后，在 proto 文件同级目录下会出现一个 `ProductInfo.pb.go` 文件：

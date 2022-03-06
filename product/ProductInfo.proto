@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/yuancf1024/grpc-demo;grpc_demo";
+option go_package = "github.com/yuancf1024/grpc-demo/product";
 
 package product;
 
